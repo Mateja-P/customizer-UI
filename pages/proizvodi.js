@@ -158,7 +158,7 @@ const proizvodi = () => {
             })}
           </div>
         </div>
-        <div className='grid gap-20 grid-cols-3 w-full px-52 py-20 2xl:px-12 xl:grid-cols-2 sm:grid-cols-2 sm:w-[100%] sm:mx-auto sm:my-0 xs:w-[100%] sm:grid-cols-1'>
+        <div className='grid gap-20 grid-cols-3 w-full px-52 py-20 2xl:px-12 xl:grid-cols-2 sm:w-[100%] sm:mx-auto sm:my-0 xs:w-[100%] sm:grid-cols-1'>
           {res().length != 0
             ? res().map((e, index) => {
                 return <Card key={index} reRender={reRender} data={e} />;
