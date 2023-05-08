@@ -1,0 +1,2 @@
+This is the front end part of a web site where clients use 3d customizer to add prints to the products.
+Since the whole web site is not finished yet, it is not online, but I was able to publish some parts of the front end. 
